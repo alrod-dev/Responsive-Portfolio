@@ -1,0 +1,582 @@
+/*
+    Global Page Settings
+ */
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url('../images/dark-triangles.png');
+
+}
+
+/*
+    Global Changes
+ */
+.container {
+    width: 980px;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*
+    Header
+ */
+
+header {
+    background: white;
+    color: #777777;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #cbcbcb 3px solid;
+
+    position: fixed;
+    width: 100%;
+
+    margin-bottom: 40px;
+
+    z-index: 5;
+}
+
+header a {
+    color: #777777;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+    border-right: #666666 1px solid;
+}
+
+header #brandName {
+    float: left;
+
+}
+
+header #brandName h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+
+    background: #4aaaa5;
+
+    margin: 0;
+    padding: 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 25px;
+}
+
+header .current, header a:hover {
+    color: #666666;
+    font-weight: bold;
+}
+
+/*
+    Main Section
+ */
+
+#mainSection {
+    min-height: 400px;
+    color: #777777;
+
+    top: 100px;
+    position: relative;
+}
+
+/*
+    About Me Box | ABOUT PAGE
+ */
+
+#aboutMeBox {
+    float: left;
+    border: #bebebe 1px solid;
+
+    margin-top: 40px;
+    margin-bottom: 160px;
+
+    width: 60%;
+    height: auto;
+
+    padding: 20px;
+    background: white;
+
+    overflow: hidden;
+
+}
+
+#aboutMeBox #pic {
+
+    float: left;
+    text-align: left;
+    width: 300px;
+    height: 350px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#aboutMeBox h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #4aaaa5;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#aboutMeBox p {
+    text-align: justify;
+    font-size: 20px;
+
+    margin-left: 20px;
+}
+
+#aboutMeBox #p1 {
+    margin-bottom: 40px;
+}
+
+
+#aboutMeBox hr
+{
+    color: #bebebe;
+    background: #bebebe;
+    height: 3px;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+/*
+    Portfolio Box | PORTFOLIO PAGE
+ */
+#portfolioBox {
+    float: left;
+    border: #bebebe 1px solid;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    width: 60%;
+    height: auto;
+
+    padding: 20px;
+    background: white;
+
+    overflow: hidden;
+}
+
+#portfolioBox h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #4aaaa5;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#portfolioBox hr
+{
+    color: #bebebe;
+    background: #bebebe;
+    height: 3px;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.portfolioPics img
+{
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+}
+
+.portfolioPics
+{
+    float: left;
+    text-align: center;
+    padding: 2px;
+
+    width: 40%;
+
+    margin: 20px 15px 20px 35px;
+}
+
+.portfolioPics h3 {
+
+    position: static;
+    bottom: 10px;
+
+    width: 88%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
+
+/*
+    Contact Box | CONTACT PAGE
+ */
+#contactForm {
+    float: left;
+    border: #bebebe 1px solid;
+
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+    width: 60%;
+    height: auto;
+
+    padding: 20px;
+    background: white;
+
+    overflow:auto;
+}
+
+
+#contactForm h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #4aaaa5;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#contactForm hr
+{
+    color: #bebebe;
+    background: #bebebe;
+    height: 3px;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+#contactForm h2 {
+    color: #777777;
+    font-size: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contactForm input {
+    padding: 3px;
+
+    height: 30px;
+    width: 80%;
+
+    border: #d4dade 1px solid;
+
+    color: #777777;
+    font-size: 16px;
+}
+
+#contactForm textarea
+{
+    height: 350px;
+    width: 80%;
+    margin-bottom: 15px;
+
+    border: #d4dade 1px solid;
+
+    resize: both;
+
+    text-align: left;
+    font-size: 16px;
+    color: #777777;
+}
+
+/*
+    Placeholder Font Style
+
+    This code is pretty awesome because
+    it's used for every different browser
+ */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #c2c8cc;
+    font-size: 16px;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #c2c8cc;
+    font-size: 16px;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: #c2c8cc;
+    font-size: 16px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #c2c8cc;
+    font-size: 16px;
+}
+
+
+
+/*
+    Button Settings
+ */
+#contactForm .button_1
+{
+    background: #4aaaa5;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    height: 50px;
+    width: 20%;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*
+    Sidebar Box and Links
+ */
+#sidebar {
+    float: right;
+
+    width: 30%;
+    height: auto;
+
+    padding: 10px;
+    background: white;
+
+    border: #bebebe 1px solid;
+
+    margin-top: 40px;
+    margin-bottom: 36%;
+    margin-right: auto;
+}
+
+
+
+#sidebar h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #4aaaa5;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#sidebar .links {
+    float: left;
+    text-align: center;
+    padding: 2px;
+    width: 30%;
+}
+
+#sidebar .links img {
+    width: 75px;
+    height: 75px;
+
+    box-shadow: 10px 10px 5px #888888;
+    margin-bottom: 10px;
+
+    border-radius: 9px;
+    border: 1px solid black;
+
+
+}
+
+#sidebar hr
+{
+    color: #bebebe;
+    background: #bebebe;
+    height: 1px;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+/*
+    Footer
+ */
+footer {
+    background: #666666;
+    padding: 30px;
+
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+    margin-top: 80px;
+
+    color: #777777;
+    text-align: center;
+
+    border-top: #4aaaa5 9px solid;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .container
+    {
+        width: 100%;
+    }
+
+    header
+    {
+        width: 100%;
+    }
+
+    header nav
+    {
+        float: left;
+    }
+
+    header #brandName {
+        margin: auto;
+
+    }
+
+    #sidebar
+    {
+        float: left;
+        position: relative;
+        width: 83%;
+
+        left: 8%;
+
+        margin-bottom: 80px;
+        margin-top: 10px;
+    }
+
+    #aboutMeBox
+    {
+        position: relative;
+        width: 80%;
+
+        left: 8%;
+
+        margin-bottom: 10px;
+    }
+
+    #aboutMeBox h1
+    {
+        font-size: 30px;
+    }
+
+    #aboutMeBox #pic
+    {
+        width: 200px;
+        height: 250px;
+    }
+
+    #aboutMeBox #p1
+    {
+        font-size: 18px;
+    }
+
+    #aboutMeBox #p2
+    {
+        font-size: 18px;
+    }
+
+    #portfolioBox
+    {
+        position: relative;
+        width: 80%;
+
+        left: 8%;
+
+        margin-bottom: 10px;
+    }
+
+    #contactForm
+    {
+        position: relative;
+        width: 80%;
+
+        left: 8%;
+
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    header #brandName
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    header #brandName h1
+    {
+        font-size: 30px;
+    }
+
+    header
+    {
+        padding-top: 0;
+    }
+
+    header nav
+    {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    header li {
+        padding: 0 65px 0 60px;
+        border: 0;
+    }
+
+    #aboutMeBox
+    {
+        margin-top: 10%;
+    }
+
+    #portfolioBox
+    {
+        margin-top: 10%;
+    }
+
+    .portfolioPics
+    {
+        width: 80%;
+    }
+
+    .portfolioPics h3
+    {
+        width: 93%;
+    }
+
+    #contactForm
+    {
+        margin-top: 10%;
+    }
+}
+
