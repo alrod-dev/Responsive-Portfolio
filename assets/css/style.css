@@ -6,7 +6,6 @@ body {
     padding: 0;
     margin: 0;
     background: url('../images/dark-triangles.png');
-
 }
 
 /*
@@ -582,5 +581,28 @@ footer {
     {
         margin-top: 10%;
     }
+}
+
+#mainSection {
+    -webkit-animation-name: opacityExample; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: opacityExample;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes opacityExample {
+    0%   {opacity: 0.25;}
+    25%  {opacity: 0.50;}
+    50%  {opacity: 0.75;}
+    100% {opacity: 1.0;}
+}
+
+/* Standard syntax */
+@keyframes opacityExample {
+    0%   {opacity: 0.25;}
+    25%  {opacity: 0.50;}
+    50%  {opacity: 0.75;}
+    100% {opacity: 1.0;}
 }
 
