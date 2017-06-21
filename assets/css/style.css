@@ -227,9 +227,13 @@ header .current, header a:hover {
     width: 88%;
     padding: 15px;
     margin-bottom: 0;
-    font-weight: 300;
+
+    font-weight: Bold;
+    font-size: 20px;
     line-height: 30px;
     color: #fff;
+
+
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
